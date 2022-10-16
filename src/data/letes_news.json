@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "tag":"Violence",
+        "date":"29 May, 2022",
+        "image":"assets/images/blog/l-news1.png",
+        "title":"In a augue sit amet erat Susp eleifend suscipit issen."
+    },
+    {
+        "id":2,
+        "tag":"Violence",
+        "date":"05 May, 2022",
+        "image":"assets/images/blog/l-news2.png",
+        "title":"Maecenas placerat, turpis onl non iaculis vestibulum."
+    },
+    {
+        "id":3,
+        "tag":"Violence",
+        "date":"01 May, 2022",
+        "image":"assets/images/blog/l-news3.png",
+        "title":"Tempus tellus, non cursusoui leo enim a metus."
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "id":1,
+        "name":"Henry Jack",
+        "designation": "Government Lawyer",
+        "image": "assets/images/bg/team11.png"
+    },
+    {
+        "id":2,
+        "name":"Sebastian Vol",
+        "designation": "Family Lawyer",
+        "image": "assets/images/bg/team12.png"
+        
+    },
+    {
+        "id":3,
+        "name":"Owen Samuel",
+        "designation": "Criminal Lawyer",
+        "image": "assets/images/bg/team13.png"
+        
+    },
+    {
+        "id":4,
+        "name":"Owen Samuel",
+        "designation": "Corporate Lawyer",
+        "image": "assets/images/bg/team14.png"
+        
+    },
+    {
+        "id":5,
+        "name":"Lucas Henry",
+        "designation": "Workplace Lawyer",
+        "image": "assets/images/bg/team15.png"
+        
+    },
+    {
+        "id":6,
+        "name":"Harper Luna",
+        "designation": "Juvenile  Lawyer",
+        "image": "assets/images/bg/team16.png"
+        
+    },
+    {
+        "id":7,
+        "name":"Mateo Daniel",
+        "designation": "Real EstateLawyer",
+        "image": "assets/images/bg/team17.png"
+        
+    },
+    {
+        "id":8,
+        "name":"Owen Samuel",
+        "designation": "Government  EstateLawyer",
+        "image": "assets/images/bg/team18.png"
+        
+    },
+    {
+        "id":9,
+        "name":"Abigail Sofia",
+        "designation": "Government  EstateLawyer",
+        "image": "assets/images/bg/team19.png"
+        
+    },
+    {
+        "id":10,
+        "name":"Charles Caleb",
+        "designation": "Drugs Offen Lawyer",
+        "image": "assets/images/bg/team20.png"
+        
+    },
+    {
+        "id":11,
+        "name":"Anthony Dylan",
+        "designation": "Family Lawyer",
+        "image": "assets/images/bg/team21.png"
+        
+    },
+    {
+        "id":10,
+        "name":"Charles Caleb",
+        "designation": "Corporate Lawyer",
+        "image": "assets/images/bg/team22.png"
+        
+    }
+]

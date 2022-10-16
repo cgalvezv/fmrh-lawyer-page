@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "images": "assets/images/bg/attorney1.png",
+    "name": "Abigail Sofia",
+    "designation": "Family Lawyer"
+  },
+  {
+    "id": 2,
+    "images": "assets/images/bg/attorney2.png",
+    "name": "Charles Caleb",
+    "designation": "Family Lawyer"
+  },
+  {
+    "id": 3,
+    "images": "assets/images/bg/attorney3.png",
+    "name": "Anthony Dylan",
+    "designation": "Criminal Lawyer"
+  },
+  {
+    "id": 4,
+    "images": "assets/images/bg/attorney4.png",
+    "name": "Ezra Gabriel",
+    "designation": "Drug Offense Lawyer"
+  }
+]

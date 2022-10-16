@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "tag":"skirmish",
+        "image":"assets/images/bg/casestudy21.png",
+        "title":"Family Law",
+        "details":"In consequat tincidunt turpis sit amet imperdietoil Praesent nonatourei mauris laoreet."
+
+    },
+    {
+        "id":2,
+        "tag":"skirmish",
+        "image":"assets/images/bg/casestudy22.png",
+        "title":"Education Law",
+        "details":"In consequat tincidunt turpis sit amet imperdietoil Praesent nonatourei mauris laoreet."
+
+    },
+    {
+        "id":3,
+        "tag":"skirmish",
+        "image":"assets/images/bg/casestudy23.png",
+        "title":"Personal Injury",
+        "details":"In consequat tincidunt turpis sit amet imperdietoil Praesent nonatourei mauris laoreet."
+
+    },
+    {
+        "id":4,
+        "tag":"skirmish",
+        "image":"assets/images/bg/casestudy24.png",
+        "title":"Real Estate Law",
+        "details":"In consequat tincidunt turpis sit amet imperdietoil Praesent nonatourei mauris laoreet."
+
+    }
+]
