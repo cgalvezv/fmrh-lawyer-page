@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <Layout>
-        <Breadcrumb title="Contact" pageName="contact" />
+        <Breadcrumb title="Contacto" pageName="contact" />
         <div>
           <div className="contact-section pt-120">
             <div className="container">
@@ -14,7 +14,7 @@ function Contact() {
                 <div className="col-lg-6 col-md-6">
                   <div className="address-area">
                     <div className="section-title2 mb-50">
-                      <h2>Contact Us If You Have More Questions.</h2>
+                      <h2>Contactanos por si tienes más preguntas.</h2>
                     </div>
                     <ul className="address-list sibling3">
                       <li>
@@ -42,10 +42,12 @@ function Contact() {
                           </svg>
                         </div>
                         <div className="text">
-                          <h4>Location</h4>
+                          <h4>Ubicación</h4>
                           <p>
-                            168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka,
-                            Bangladesh
+                            Estado 50,
+                            Curicó,
+                            Región del Maule,
+                            Chile
                           </p>
                         </div>
                       </li>
@@ -75,7 +77,7 @@ function Contact() {
                           </svg>
                         </div>
                         <div className="text">
-                          <h4>Phone</h4>
+                          <h4>Teléfono</h4>
                           <a href="tel:+012-3456-789102">
                             012-3456-789102
                           </a>{" "}
@@ -102,7 +104,7 @@ function Contact() {
                           </svg>
                         </div>
                         <div className="text">
-                          <h4>Email</h4>
+                          <h4>Correo electrónico</h4>
                           <a href="mailto:info@example.com">
                             info@example.com{" "}
                           </a>
@@ -117,7 +119,7 @@ function Contact() {
                 </div>
                 <div className="col-lg-6 col-md-6 text-md-start text-center">
                   <div className="section-title2 mb-50">
-                    <h2>Have Any Questions</h2>
+                    <h2>Si tienes algúna duda o pregunta...</h2>
                   </div>
                   <form className="contact-form">
                     <div className="row">
@@ -171,13 +173,12 @@ function Contact() {
           <div className="map-section pt-120 pb-0 overflow-hidden">
             <div className="container-fluid px-0">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48330.162702269045!2d-74.29798882771155!3d40.792034138683825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ab00d85ee855%3A0x93a15ba40269dd0!2sWest%20Orange%2C%20NJ%2007052%2C%20USA!5e0!3m2!1sen!2sbd!4v1658243800106!5m2!1sen!2sbd"
-                height={500}
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8399383814044!2d-71.23725448370695!3d-34.985673785316735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966457a8a7520517%3A0x7dcea1922b59b613!2sEstado%2050%2C%203343014%20Curic%C3%B3%2C%20Maule!5e0!3m2!1ses!2scl!4v1669587071862!5m2!1ses!2scl"
+                  height={500}
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"/>
             </div>
           </div>
         </div>

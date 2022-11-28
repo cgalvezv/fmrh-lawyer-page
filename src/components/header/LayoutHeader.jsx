@@ -59,14 +59,14 @@ function LayoutHeader() {
     <>
      <header className="header-area style-3">
     <div className="header-logo">
-  <Link href="/"><img alt="image" src="assets/images/icons/header1-logo.svg" /></Link>
-</div>
+      <Link href="/"><img alt="image" src="assets/images/icons/header1-logo.svg" /></Link>
+    </div>
 
 
   <div  className={showMobileMenu === 1 ? "main-nav show-menu" :"main-nav"}>
-   
+
     <div className="mobile-logo-area d-xl-none d-flex justify-content-between align-items-center">
-        
+
       <div className="mobile-logo-wrap ">
       </div>
       <div className="menu-close-btn" onClick={handleMobileMenu}>
@@ -147,7 +147,7 @@ function LayoutHeader() {
       </div>
     </div>
   </div>
-  
+
   <div className="nav-right d-flex jsutify-content-end align-items-center gap-5">
   <div className="mobile-menu-btn d-xl-none d-block">
     <i className="bi bi-list text-white" />
@@ -162,7 +162,7 @@ function LayoutHeader() {
 
 
 </header>
-   
+
     </>
   )
 }

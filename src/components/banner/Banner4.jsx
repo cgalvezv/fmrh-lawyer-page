@@ -39,9 +39,7 @@ function Banner4() {
   <div className="banner-social-area-light">
     <ul className="banner-social gap-4">
       <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
-      <li><a href="https://www.twitter.com/"><i className="bx bxl-twitter" /></a></li>
-      <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li> 
-      <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest" /></a></li> 
+      <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
     </ul>
   </div>
   <div className="banner3-bg" />
@@ -52,21 +50,24 @@ function Banner4() {
           <SwiperSlide className="swiper-slide">
             <div className="bann31-single d-flex align-items-center">
               <div className="content">
-                <span>Wellcome to Corelaw</span>
-                <h2>Incredible Solutions All <span>Criminal Law..</span></h2>
+                <span>Servicios legales</span>
+                <h2>
+                  Fabia Rojas <br/>
+                  <span>Abogada</span>
+                </h2>
                 <div className="button-group gap-5 d-flex justify-content-xl-start justify-content-center flex-md-nowrap flex-wrap">
-                  <Link href="/contact"><a className="eg-btn btn--primary2 sibling2  btn--lg2"><i className="bi bi-dash-lg" />Contact Now<i className="bi bi-chevron-right" /></a></Link>
+                  <Link href="/contact"><a className="eg-btn btn--primary2 sibling2  btn--lg2"><i className="bi bi-dash-lg" />Contactar<i className="bi bi-chevron-right" /></a></Link>
                   <div className="btn-with-vdo d-flex align-items-center gap-4" onClick={() => setOpen(true)}>
                     <div className="video-play"  
                             style={{ cursor: "pointer" }}>
                       <div className="popup-youtube video-icon"><i className="bx bx-play" /></div>
                     </div>
-                    <div className="video-btn popup-youtube">Play Video</div>
+                    <div className="video-btn popup-youtube">Ver video</div>
                   </div>
                 </div>
               </div>
               <div className="banner3-lawyer-img">
-                <img src="assets/images/bg/banner3-lawyer1.png" className="img-fluid" alt="image" />
+                <img src="assets/images/icons/fr-logo.png" className="img-fluid" alt="image"/>
               </div>
             </div>
           </SwiperSlide>
