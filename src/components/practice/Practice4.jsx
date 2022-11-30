@@ -38,10 +38,10 @@ function Practice4() {
       navigation: false,
     },
     992:{ 
-      slidesPerView: 3
+      slidesPerView: 4
     },
     1200:{
-      slidesPerView: 3
+      slidesPerView: 4
     },
   }
   }
@@ -53,13 +53,13 @@ function Practice4() {
             <div className="section-title-area sibling2">
               <div className="marquee">
                 <div>
-                  <span>Practice Area</span>
-                  <span>Practice Area</span>
+                  <span>Áreas Prácticas</span>
+                  <span>Áreas Prácticas</span>
                 </div>
               </div>
               <div className="section-title sibling2">
-                <span>PRACTICE AREA</span>
-                <h2>We are Practicing on various fields for longtime.</h2>
+                <span>Áreas Prácticas</span>
+                <h2>Trabajamos en distintas áreas del derecho.</h2>
               </div>
             </div>
           </div>
@@ -72,45 +72,77 @@ function Practice4() {
                   <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
                     <div className="practice-single3 sibling2">
                       <div className="practice-image">
-                        <img src="assets/images/bg/practice31.png" className="img-fluid" alt="image" />
+                        <img src="assets/images/bg/casestudy811.png" className="img-fluid" alt="image" />
                         <div className="practice-icon">
-                          <img src="assets/images/icons/practice31.svg" alt="" />
+                          <img src="assets/images/icons/practice-icon22.svg" alt="" />
                         </div>
                       </div>
                       <div className="practice-content">
-                        <h4><Link href="/practice-details">Business Law</Link></h4>
-                        <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                        <Link href="/practice-details"><a className="details-btn">Learn More</a></Link>
+                        <h4>Derecho de Familia</h4>
+                        <p className="para">Alimentos, relación directa irregular, medidas de protección, cuidados personal, cumplimiento, VIF, entre otros</p>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">
                     <div className="practice-single3 sibling2">
                       <div className="practice-image">
-                        <img src="assets/images/bg/practice32.png" className="img-fluid" alt="image" />
+                        <img src="assets/images/bg/casestudy311.png" className="img-fluid" alt="image" />
                         <div className="practice-icon">
-                          <img src="assets/images/icons/practice32.svg" alt="" />
+                          <img src="assets/images/icons/practice31.svg" alt="" />
                         </div>
                       </div>
                       <div className="practice-content">
-                        <h4><Link href="/practice-details"><a>Workplace Accident</a></Link></h4>
-                        <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                        <Link href="/practice-details"><a className="details-btn">Learn More</a></Link>
+                        <h4>Derecho Civíl</h4>
+                        <p className="para">Escrituras públicas, contratos, cambio de nombre, interdicciones, autorizaciones para salir del país entre otros.</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                    <div className="practice-single3 sibling2">
+                      <div className="practice-image">
+                        <img src="assets/images/bg/casestudy77.png" className="img-fluid" alt="image"/>
+                        <div className="practice-icon">
+                          <img src="assets/images/icons/practice4.svg" alt="" />
+                        </div>
+                      </div>
+                      <div className="practice-content">
+                        <h4>Propiedades</h4>
+                        <p className="para">Subdivisiones, regularizaciones, corretaje de propiedades, tasaciones inmobiliarias entre otros.</p>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.6s">
                     <div className="practice-single3 sibling2">
                       <div className="practice-image">
-                        <img src="assets/images/bg/practice33.png" className="img-fluid" alt="image" />
+                        <img src="assets/images/bg/casestudy322.png" className="img-fluid" alt="image" />
+                        <div className="practice-icon">
+                          <img src="assets/images/icons/practice4.svg" alt="" />
+                        </div>
+                      </div>
+                      <div className="practice-content">
+                        <h4>Derecho Sucesorio</h4>
+                        <p className="para">Herencias, posesiones efectivas, testamentos, entre otros.
+                          <br/>
+                          <br/>
+                          <br/>
+                        </p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                    <div className="practice-single3 sibling2">
+                      <div className="practice-image">
+                        <img src="assets/images/bg/cs-details111.png" className="img-fluid" alt="image" />
                         <div className="practice-icon">
                           <img src="assets/images/icons/practice33.svg" alt="" />
                         </div>
                       </div>
                       <div className="practice-content">
-                        <h4><Link href="/practice-details"><a>Juvenile Crime</a></Link></h4>
-                        <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                        <Link href="/practice-details"><a className="details-btn">Learn More</a></Link>
+                        <h4>Policía Local</h4>
+                        <p className="para">Accidentes del transito, derecho del consumidor, co-propiedades inmobiliarias, entre otros.
+                          <br/>
+                          <br/>
+                        </p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -123,9 +155,47 @@ function Practice4() {
                         </div>
                       </div>
                       <div className="practice-content">
-                        <h4><Link href="/practice-details"><a>Business Law</a></Link></h4>
-                        <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                        <Link href="/practice-details"><a className="details-btn">Learn More</a></Link>
+                        <h4>Juicios Ejecutivos</h4>
+                        <p className="para">Cobranzas judiciales y extrajudiciales, entre otros.
+                          <br/>
+                          <br/>
+                          <br/>
+                        </p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                    <div className="practice-single3 sibling2">
+                      <div className="practice-image">
+                        <img src="assets/images/bg/practice32.png" className="img-fluid" alt="image" />
+                        <div className="practice-icon">
+                          <img src="assets/images/icons/practice32.svg" alt="" />
+                        </div>
+                      </div>
+                      <div className="practice-content">
+                        <h4>Derecho Laboral</h4>
+                        <p className="para">Despidos, contratos de trabajo, licencias, finiquitos, entre otros.
+                          <br/>
+                          <br/>
+                          <br/>
+                        </p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                    <div className="practice-single3 sibling2">
+                      <div className="practice-image">
+                        <img src="assets/images/bg/practice33.png" className="img-fluid" alt="image" />
+                        <div className="practice-icon">
+                          <img src="assets/images/icons/practice-icon21.svg" alt="" />
+                        </div>
+                      </div>
+                      <div className="practice-content">
+                        <h4>Derecho Penal</h4>
+                        <p className="para">Control de detención, procedimiento abreviado, entre otros.
+                          <br/>
+                          <br/>
+                        </p>
                       </div>
                     </div>
                   </SwiperSlide>
