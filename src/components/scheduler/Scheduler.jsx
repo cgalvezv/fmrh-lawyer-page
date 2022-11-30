@@ -33,7 +33,7 @@ function Scheduler() {
                         <div className="col-4">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
-                                    <h4>Consulta jurídica online</h4>
+                                    <h4>Consulta jurídica remota</h4>
                                     <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
                                 </div>
                             </div>

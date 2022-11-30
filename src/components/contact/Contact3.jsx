@@ -9,12 +9,12 @@ function Contact3() {
             <div className="section-title-area">
               <div className="marquee">
                 <div>
-                  <span>Contact Us Now</span>
-                  <span>Contact Us Now</span>
+                  <span>Contactanos</span>
+                  <span>Contactanos</span>
                 </div>
               </div>
               <div className="section-title">
-                <span>CONTACT US</span>
+                <span>CONTACTANOS</span>
                 <h2 className="text-white">Let us know your concern We Are Always Ready.</h2>
               </div>
             </div>
