@@ -28,13 +28,13 @@ function About4() {
         <div className="about3-content sibling2">
           <p className="para">Somos un grupo de profesionales liderados por la Abogada Fabia Macarena Rojas Herrera y
             nos orientamos en asesorar a nuestros clientes con un gran compromiso humano y profesional, de manera
-            responsable con el entorno y con los problemas que cada uno de ellos nos confía. Nuestro compromiso es:
+            responsable con el entorno, buscando activamente soluciones a problemas que cada uno de ellos nos confía. Nuestro compromiso es:
           </p>
           <ul className="about3-list sibling2">
             <li>La búsqueda activa de soluciones jurídicas acordes a las problemáticas actuales.</li>
-            <li>Generar soluciones de calidad y en concordancia con la normativa legal vigente.</li>
+            <li>Generar estrategias jurídicas en concordancia con la normativa legal vigente.</li>
             <li>Capacitación constante en diveras áreas del derecho, en pro de entregar un servicio más especializado.</li>
-            <li>Entregar un asesoramiento jurídico altamente calificado, pero con la intención de satisfacer la problemática del cliente.</li>
+            <li>Entregar una asesoría jurídica altamente calificada, en términos sencillos para nuestros clientes.</li>
           </ul>
         </div>
       </div>

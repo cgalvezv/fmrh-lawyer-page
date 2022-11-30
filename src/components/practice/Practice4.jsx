@@ -79,7 +79,7 @@ function Practice4() {
                       </div>
                       <div className="practice-content">
                         <h4>Derecho de Familia</h4>
-                        <p className="para">Alimentos, relación directa irregular, medidas de protección, cuidados personal, cumplimiento, VIF, entre otros</p>
+                        <p className="para">Alimentos, relación directa y regular, medidas de protección, cuidados personal, cumplimiento, VIF, entre otros</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -93,7 +93,7 @@ function Practice4() {
                       </div>
                       <div className="practice-content">
                         <h4>Derecho Civíl</h4>
-                        <p className="para">Escrituras públicas, contratos, cambio de nombre, interdicciones, autorizaciones para salir del país entre otros.</p>
+                        <p className="para">Escrituras públicas, contratos, cambio de nombre, interdicciones, autorizaciones para salir del país, entre otros.</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -107,7 +107,7 @@ function Practice4() {
                       </div>
                       <div className="practice-content">
                         <h4>Propiedades</h4>
-                        <p className="para">Subdivisiones, regularizaciones, corretaje de propiedades, tasaciones inmobiliarias entre otros.</p>
+                        <p className="para">Subdivisiones, regularizaciones, corretaje de propiedades, tasaciones inmobiliarias, entre otros.</p>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -139,7 +139,7 @@ function Practice4() {
                       </div>
                       <div className="practice-content">
                         <h4>Policía Local</h4>
-                        <p className="para">Accidentes del transito, derecho del consumidor, co-propiedades inmobiliarias, entre otros.
+                        <p className="para">Accidentes del tránsito, derecho del consumidor, copropiedad inmobiliaria, entre otros.
                           <br/>
                           <br/>
                         </p>
