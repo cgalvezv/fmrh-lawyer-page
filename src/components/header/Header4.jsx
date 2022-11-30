@@ -60,7 +60,7 @@ function Header4() {
       <header className="header-area style-4">
         <div className="nav-left">
           <div className="header-logo">
-            <Link href="/"><a><img alt="image" src="assets/images/icons/fr-logo.png" height={50} width={50}/></a></Link>
+            <Link href="/"><a><img alt="image" src="assets/images/icons/fr-logo.png" height={50} /></a></Link>
           </div>
           <div className={showMobileMenu === 1 ? "main-nav show-menu" :"main-nav"}>
             <div className="mobile-logo-area d-xl-none d-flex justify-content-between align-items-center">
