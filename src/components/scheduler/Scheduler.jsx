@@ -15,7 +15,7 @@ function Scheduler() {
                             </div>
                             <div className="section-title sibling2">
                                 <span>AGENDA TU CONSULTA</span>
-                                <h2>Puedes agendar tu consulta, ya sea presencial, online o a domicilio</h2>
+                                <h2>Puedes agendar tu consulta de manera presencial, de manera remota o a domicilio</h2>
                             </div>
                         </div>
                     </div>
