@@ -1,21 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
+import FormContact from "./FormContact";
 function Contact3() {
 
   return (
     <>
-      <div className="contact-section dark3-bg pt-120 pb-120">
+      <div id="contact-us" className="contact-section dark3-bg pt-120 pb-120">
         <div className="container-fluid">
           <div className="row">
             <div className="section-title-area">
               <div className="marquee">
                 <div>
-                  <span>Contactanos</span>
-                  <span>Contactanos</span>
+                  <span>Contáctanos</span>
+                  <span>Contáctanos</span>
                 </div>
               </div>
               <div className="section-title">
                 <span>CONTACTANOS</span>
-                <h2 className="text-white">Let us know your concern We Are Always Ready.</h2>
+                <h2 className="text-white">Cuentanos tus preocupaciones y estaremos listos para asesorarte.</h2>
               </div>
             </div>
           </div>
@@ -23,46 +24,12 @@ function Contact3() {
         <div className="container">
           <div className="row align-items-start gy-5">
             <div className="col-xl-7 col-lg-7">
-              <form className="contact-form contact-form3">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="form-inner dark-mode">
-                      <input type="text" placeholder="Enter your name" />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6">
-                    <div className="form-inner dark-mode">
-                      <input type="email" placeholder="Subject" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="form-inner dark-mode">
-                      <input type="email" placeholder="Enter your email" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="form-inner dark-mode">
-                      <input type="text" placeholder="Enter your Phone" />
-                    </div>
-                  </div>
-                  <div className="col-lg-12">
-                    <div className="form-inner dark-mode">
-                      <textarea rows={5} placeholder="Your message" defaultValue={""} />
-                    </div>
-                  </div>
-                  <div className="col-lg-12 text-lg-start text-center">
-                    <button type="submit" className="eg-btn btn--primary2 sibling2  btn--lg2"><i className="bi bi-dash-lg" />Contact Now<i className="bi bi-chevron-right" /></button>
-                  </div>
-                </div>
-              </form>
+              <FormContact />
             </div>
             <div className="col-xl-4 offset-xl-1 col-lg-5">
               <div className="contact-text text-lg-start text-center">
-                <h2>Lets Talk</h2>
-                <p>Integer quis libero semper, interdum odio non, consequat sem. Quisquewb
-                  pretium, quam ut lacinia ultricies, est urna cursus purus, ut tristique puru
-                  pretium, quam ut lacinia ultricies.</p>
+                <h2>Hablemos</h2>
+                <p>Puedes contactarnos a través del este formulario, ya sea por Whatsapp o por Correo electrónico. Además atendemos presencialmente en el centro de Curicó</p>
               </div>
               <ul className="address-list sibling4">
                 <li>
@@ -80,8 +47,8 @@ function Contact3() {
                     </svg>
                   </div>
                   <div className="text">
-                    <h4>Location</h4>
-                    <p>168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh</p>
+                    <h4>Ubicación</h4>
+                    <p>Estado 50, Oficina C - Curicó - Región del Maule</p>
                   </div>
                 </li>
                 <li>
@@ -100,9 +67,9 @@ function Contact3() {
                     </svg>
                   </div>
                   <div className="text">
-                    <h4>Phone</h4>
-                    <a href="tel:+012-3456-789102">012-3456-789102</a> <br />
-                    <a href="tel:+012-3456-789102">+012-3456-789102</a>
+                    <h4>Contacto telefónico</h4>
+                    <a href="tel:+012-3456-789102">+569 746 727 37</a> <br />
+                    <a href="tel:+012-3456-789102">+569 311 789 18</a>
                   </div>
                 </li>
               </ul>
