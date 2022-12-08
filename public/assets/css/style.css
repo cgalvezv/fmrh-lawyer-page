@@ -2262,7 +2262,7 @@ header.style-4 {
   background-color: var(--white);
   width: 100%;
   z-index: 99;
-  padding: 0px 60px 0px 0px;
+  padding: 20px 60px 20px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2313,7 +2313,7 @@ header.style-4.sticky {
   top: 0px;
   left: 0;
   z-index: 99;
-  background: var(--dark--bg);
+  background: var(--white);
   box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
   animation: smooth-header 0.65s linear;
 }
@@ -2326,19 +2326,19 @@ header.style-4.sticky {
   }
 }
 header.style-4.sticky .nav-right {
-  background-color: #151515;
+  background-color: var(--white);
 }
 header.style-4.sticky .nav-right .phone-call .icon svg {
-  fill: var(--white);
+  fill: #151515;
 }
 header.style-4.sticky .nav-right .phone-call .number span {
-  color: var(--white);
+  color: #151515;
 }
 header.style-4.sticky .nav-right .phone-call .number h5 {
   white-space: nowrap;
 }
 header.style-4.sticky .nav-right .phone-call .number h5 a {
-  color: var(--white);
+  color: #151515;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   header.style-4 .header-logo {

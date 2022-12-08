@@ -2417,7 +2417,7 @@ header.style-4 {
     background-color: var(--white);
     width: 100%;
     z-index: 99;
-    padding: 0px 60px 0px 0px;
+    padding: 20px 60px 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2460,7 +2460,7 @@ header.style-4 {
         top: 0px;
         left: 0;
         z-index: 99;
-        background: var(--dark--bg);
+        background: var(--white);
         // transition: 0.2s ease;
         box-shadow: 5px 3px 40px rgba(0, 72, 88, 0.1);
         animation: smooth-header 0.65s linear;        
@@ -2475,21 +2475,21 @@ header.style-4 {
             
         }
         .nav-right{
-            background-color:  #151515;
+            background-color:  var(--white);
             .phone-call{
                 .icon{
                     svg{
-                        fill: var(--white);
+                        fill: #151515;
                     }
                 }
                 .number{
                     span{
-                        color: var(--white);
+                        color: #151515;
                     }
                     h5{
                         white-space: nowrap;
                         a{
-                            color: var(--white);
+                            color: #151515;
                         }
                     }
                 }
