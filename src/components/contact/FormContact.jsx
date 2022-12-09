@@ -21,7 +21,7 @@ const FormContact = () => {
     const handleSubmitWhatsapp = (event) => {
         event.preventDefault();
         if (invalidForm()) {
-            alert("Formulário de contacto inválido, debe rellenar todos los campos");
+            alert("Formulario de contacto inválido, debe rellenar todos los campos");
         } else {
             const text = `Hola Abogada Fabia Rojas, mi nombre es ${name}, mi correo es ${email}, mi teléfono es ${phone}, mi asunto es ${subject} y mi consulta es ${message}`;
             const url = `https://api.whatsapp.com/send?phone=56974642737&text=${text}`;
@@ -32,7 +32,7 @@ const FormContact = () => {
 
     const handleSubmitEmail = (event) => {
         if (invalidForm()) {
-            alert("Formulário de contacto inválido, debe rellenar todos los campos");
+            alert("Formulario de contacto inválido, debe rellenar todos los campos");
         } else {
             event.preventDefault();
             const text = `Hola Abogada Fabia Rojas, mi nombre es ${name}, mi correo es ${email}, mi teléfono es ${phone}, mi asunto es ${subject} y mi consulta es ${message}`
@@ -43,7 +43,7 @@ const FormContact = () => {
     }
 
     return (
-        <form className="contact-form contact-form3">
+        <div className="contact-form contact-form3">
             <div className="row">
                 <div className="col-lg-6">
                     <div className="form-inner dark-mode">
@@ -99,15 +99,23 @@ const FormContact = () => {
                 <div className="col-lg-12">
                     <div className="row">
                         <div className="col-6 text-lg-center text-start">
-                            <button className="eg-btn btn--primary2 sibling2 btn--lg2" onClick={handleSubmitWhatsapp}><i className="bi bi-whatsapp" />Contactar por Whatsapp<i className="bi bi-chevron-right" /></button>
+                            <button className="eg-btn btn--primary2 sibling2 btn--md" onClick={handleSubmitWhatsapp}>
+                                <i className="bi bi-whatsapp" />
+                                    Vía Whatsapp
+                                <i className="bi bi-chevron-right" />
+                            </button>
                         </div>
                         <div className="col-6 text-lg-center text-end">
-                            <button className="eg-btn btn--primary2 sibling2 btn--lg2" onClick={handleSubmitEmail}><i className="bi bi-envelope" />Contactar por E-mail<i className="bi bi-chevron-right" /></button>
+                            <button className="eg-btn btn--primary2 sibling2 btn--md" onClick={handleSubmitEmail}>
+                                <i className="bi bi-envelope" />
+                                    Vía E-mail
+                                <i className="bi bi-chevron-right" />
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
     );
 }
 export default FormContact;
