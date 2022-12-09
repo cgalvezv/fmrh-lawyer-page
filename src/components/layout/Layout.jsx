@@ -2,7 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Footer from "../../common/Footer";
 import Topbar from "../../common/Topbar";
-import LayoutHeader from "../header/LayoutHeader";
+import LayoutHeader from "./LayoutHeader";
+
 function Layout({ children }) {
   return (
     <>

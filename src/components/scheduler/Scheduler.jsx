@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import Link from "next/link";
+import React from 'react'
 function Scheduler() {
     return (
         <>
@@ -22,27 +21,30 @@ function Scheduler() {
                 </div>
                 <div className="container">
                     <div className="row justify-content-center g-4">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-sm-12">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
                                     <h4>Consulta jurídica presencial</h4>
                                     <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
+                                    <a className="details-btn" href="https://calendly.com/fabia-rojas-abogada/consulta-juridica" target="_blank">Agendar cita</a>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-sm-12">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
                                     <h4>Consulta jurídica remota</h4>
                                     <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
+                                    <a className="details-btn">Agendar cita</a>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-lg-4 col-sm-12">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
                                     <h4>Consulta jurídica a domicilio</h4>
                                     <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
+                                    <a className="details-btn">Agendar cita</a>
                                 </div>
                             </div>
                         </div>

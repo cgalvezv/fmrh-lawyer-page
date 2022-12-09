@@ -3,7 +3,6 @@ import React from 'react'
 import Breadcrumb from '../common/Breadcrumb'
 import InfoSection from '../common/InfoSection'
 import Layout from '../components/layout/Layout'
-import PracticeTestimonial from '../components/testimonial/PracticeTestimonial'
 
 function PracticeArea() {
   return (
@@ -197,7 +196,6 @@ function PracticeArea() {
   </div>
 </div>
 <InfoSection/>
-<PracticeTestimonial/>
     </Layout>   
     </>
   )
