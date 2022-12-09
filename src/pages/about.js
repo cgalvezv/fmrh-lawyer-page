@@ -6,7 +6,7 @@ import AttronySection from "../components/Attrony/AttronySection";
 import AboutBlog from "../components/blog/AboutBlog";
 import AboutContactArea from "../components/contact/AboutContactArea";
 import Layout from "../components/layout/Layout";
-import Counter2 from "../counter/Counter2";
+import Counter2 from "../counter/Counter";
 
 function About() {
   return (
