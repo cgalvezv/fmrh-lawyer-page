@@ -20,13 +20,16 @@ function Scheduler() {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row justify-content-center g-4">
+                    <div className="row justify-content-center g-4 pb-4">
                         <div className="col-lg-4 col-sm-12">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
                                     <h4>Consulta jurídica presencial</h4>
-                                    <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                                    <a className="details-btn" href="https://calendly.com/fabia-rojas-abogada/consulta-juridica" target="_blank">Agendar cita</a>
+                                    <p className="para">
+                                        Horario: Lunes a Viernes desde 9:00 a 18:00 <br/>
+                                        <b>Precio consulta: $10.000</b>
+                                    </p>
+                                    <a className="details-btn" href="https://calendly.com/fabia-rojas-abogada/consulta-juridica-presencial" target="_blank">Agendar cita</a>
                                 </div>
                             </div>
                         </div>
@@ -34,17 +37,48 @@ function Scheduler() {
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
                                     <h4>Consulta jurídica remota</h4>
-                                    <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                                    <a className="details-btn">Agendar cita</a>
+                                    <p className="para">
+                                        Horario: Lunes a Viernes desde 9:00 a 18:00 <br/>
+                                        <b>Precio consulta: $20.000</b>
+                                    </p>
+                                    <a className="details-btn" href="https://calendly.com/fabia-rojas-abogada/consulta-juridica-remota" target="_blank">Agendar cita</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
                             <div className="scheduler-single sibling">
                                 <div className="scheduler-content">
+                                    <h4>Consulta jurídica presencial - Horario especial</h4>
+                                    <p className="para">
+                                        Sábado, Domingo o Festivos, hora a coordinar<br/>
+                                        <b>Precio consulta: $30.000</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center g-4">
+                        <div className="col-lg-6 col-sm-12">
+                            <div className="scheduler-single sibling">
+                                <div className="scheduler-content">
                                     <h4>Consulta jurídica a domicilio</h4>
-                                    <p className="para">In consequat tincidunt turpis sit ametoi imperdiet. Praesent Class.</p>
-                                    <a className="details-btn">Agendar cita</a>
+                                    <p className="para">
+                                        Para algunos sectores de Curicó, Teno, Romeral, Molina, Lontue y Rauco<br/>
+                                        Horario a convenir <br/>
+                                        <b>Precio consulta: $50.000</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <div className="scheduler-single sibling">
+                                <div className="scheduler-content">
+                                    <h4>Consulta jurídica presencial - Vichuquén</h4>
+                                    <p className="para">
+                                        Para la gente de Iloca, Duao, Lipimávida, Infiernillo, Llico y Vichuquén <br/>
+                                        Dias Lunes, Viernes o Sábado, Lugar y Hora a convenir <br/>
+                                        <b>Precio consulta: $30.000</b>
+                                    </p>
                                 </div>
                             </div>
                         </div>

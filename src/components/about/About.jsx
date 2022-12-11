@@ -26,8 +26,8 @@ function About() {
           </div>
         </div>
         <div className="about3-content sibling2">
-          <p className="para">Somos un grupo de profesionales liderados por la Abogada Fabia Macarena Rojas Herrera y
-            nos orientamos en asesorar a nuestros clientes con un gran compromiso humano y profesional, de manera
+          <p className="para">Somos un grupo de expertos liderados por la Abogada Fabia Macarena Rojas Herrera, profesional titulada de la Universidad de Talca.
+            Nos orientamos en asesorar a nuestros clientes con un gran compromiso humano y profesional, de manera
             responsable con el entorno, buscando activamente soluciones a problemas que cada uno de ellos nos confía. Nuestro compromiso es:
           </p>
           <ul className="about3-list sibling2">
